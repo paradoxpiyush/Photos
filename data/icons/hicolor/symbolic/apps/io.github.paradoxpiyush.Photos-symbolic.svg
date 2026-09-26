@@ -24,13 +24,13 @@
         </dc:creator>
         <dc:subject>
           <rdf:Bag>
-            <rdf:li>loupe image viewer document photo</rdf:li>
+            <rdf:li>photos image viewer document photo</rdf:li>
           </rdf:Bag>
         </dc:subject>
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <title>folder-loupe</title>
+  <title>folder-photos</title>
   <path
           id='rounded'
           style=''

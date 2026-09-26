@@ -1,4 +1,4 @@
-= $media[type="image" its:translate="no" src="figures/org.gnome.Loupe.svg" height="48px" width="48px"] Image Viewer (Loupe)
+= $media[type="image" its:translate="no" src="figures/io.github.paradoxpiyush.Photos.svg" height="48px" width="48px"] Photos
   [guide]
 
 @desc Browse through your images and inspect their metadata.

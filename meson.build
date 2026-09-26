@@ -1,5 +1,5 @@
 project(
-  'loupe',
+  'photos',
   'rust',
   version: '51.0',
   meson_version: '>= 0.59.0',
@@ -36,7 +36,7 @@ endif
 
 prefix = get_option('prefix')
 
-app_id = 'org.gnome.Loupe@0@'.format(get_option('app_id_suffix'))
+app_id = 'io.github.paradoxpiyush.Photos@0@'.format(get_option('app_id_suffix'))
 profile = get_option('profile')
 version = meson.project_version() + version_suffix
 localedir = prefix / get_option('localedir')

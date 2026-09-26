@@ -2,7 +2,7 @@
   [topic]
 @link[guide >index#additional-features]
 
-@desc Move unwanted images to the trash directly from Image Viewer.
+@desc Move unwanted images to the trash directly from Photos.
 
 If a user wants to remove an image, they can press the $gui(Move To Trash)
 ($media[type="image" src="figures/user-trash-symbolic.svg"](user-trash-symbolic))

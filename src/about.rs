@@ -29,13 +29,13 @@ pub async fn dialog() -> adw::AboutDialog {
     // an object and set all relevant properties very
     // easily in a way that's idiomatic to Rust.
     adw::AboutDialog::builder()
-        .application_name(gettext("Image Viewer"))
+        .application_name(gettext("Photos"))
         .application_icon(config::APP_ID)
         .version(config::VERSION)
-        .developer_name(gettext("The GNOME Project"))
-        .website("https://apps.gnome.org/Loupe/")
-        .issue_url("https://gitlab.gnome.org/GNOME/loupe/-/issues/")
-        .support_url("https://discourse.gnome.org/tag/loupe")
+        .developer_name(gettext("Piyush Soni"))
+        .website("https://github.com/paradoxpiyush/Photos")
+        .issue_url("https://github.com/paradoxpiyush/Photos/issues")
+        .support_url("https://github.com/paradoxpiyush/Photos/issues")
         .developers([
             "Christopher Davis <christopherdavis@gnome.org>",
             "Sophie Herold <sophieherold@gnome.org>",

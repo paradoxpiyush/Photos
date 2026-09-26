@@ -18,7 +18,7 @@
 #![allow(clippy::new_without_default)]
 
 /*!
-# Loupe Image Viewer
+# Photos
 
 Code documentation
 
@@ -75,12 +75,12 @@ use tracing_subscriber::layer::*;
 use tracing_subscriber::util::*;
 
 static GRESOURCE_BYTES: &[u8] =
-    gvdb_macros::include_gresource_from_dir!("/org/gnome/Loupe", "data/resources");
+    gvdb_macros::include_gresource_from_dir!("/io/github/paradoxpiyush/Photos", "data/resources");
 
 pub fn main() -> glib::ExitCode {
     // Follow G_MESSAGES_DEBUG env variable
     let default_level =
-        if !glib::log_writer_default_would_drop(glib::LogLevel::Debug, Some("loupe")) {
+        if !glib::log_writer_default_would_drop(glib::LogLevel::Debug, Some("photos")) {
             tracing_subscriber::filter::LevelFilter::DEBUG
         } else {
             tracing_subscriber::filter::LevelFilter::ERROR
@@ -105,8 +105,8 @@ pub fn main() -> glib::ExitCode {
     unsafe {
         setlocale(LocaleCategory::LcAll, "");
     }
-    bindtextdomain("loupe", config::LOCALEDIR).unwrap();
-    textdomain("loupe").unwrap();
+    bindtextdomain("photos", config::LOCALEDIR).unwrap();
+    textdomain("photos").unwrap();
 
     tracing::trace!("gettext initialized");
 

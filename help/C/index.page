@@ -9,7 +9,7 @@
  <info>
   <desc>Browse through your images and inspect their metadata.</desc>
  </info>
- <title><media type="image" its:translate="no" src="figures/org.gnome.Loupe.svg" height="48px" width="48px"/> Image Viewer (Loupe)</title>
+ <title><media type="image" its:translate="no" src="figures/io.github.paradoxpiyush.Photos.svg" height="48px" width="48px"/> Photos</title>
  <section id="getting-started" style="2column">
   <title>Getting Started</title>
  </section>

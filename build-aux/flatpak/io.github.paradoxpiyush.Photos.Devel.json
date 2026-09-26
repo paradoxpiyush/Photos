@@ -1,5 +1,5 @@
 {
-    "id": "org.gnome.Loupe.Devel",
+    "id": "io.github.paradoxpiyush.Photos.Devel",
     "runtime": "org.gnome.Platform",
     "runtime-version": "master",
     "sdk": "org.gnome.Sdk",
@@ -7,7 +7,7 @@
         "org.freedesktop.Sdk.Extension.rust-stable",
         "org.freedesktop.Sdk.Extension.llvm22"
     ],
-    "command": "loupe",
+    "command": "photos",
     "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
@@ -112,7 +112,7 @@
             ]
         },
         {
-            "name": "loupe",
+            "name": "photos",
             "buildsystem": "meson",
             "config-opts": [
                 "-Dprofile=dev",
@@ -121,7 +121,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/loupe.git"
+                    "url": "https://github.com/paradoxpiyush/Photos.git"
                 }
             ]
         }

@@ -1,8 +1,8 @@
-# Image Viewer (Loupe)
+# Photos
 
-<a href='https://flathub.org/apps/org.gnome.Loupe'><img width='240' alt='Download on Flathub' src='https://flathub.org/api/badge?svg&locale=en'/></a>
-
-Loupe is GNOME's default Image Viewer.
+> Development fork of [GNOME Loupe](https://gitlab.gnome.org/GNOME/loupe), renamed to *Photos*.
+>
+> Upstream Loupe is GNOME's default image viewer and remains the source of all functionality here.
 
 
 ## Technical Details
@@ -15,7 +15,7 @@ Loupe is GNOME's default Image Viewer.
 - Accessible presentation of the most important metadata
 - Sleek but powerful interface developed in conjunction with GNOME Human Interface Guidelines
 
-![Image Viewer Screenshot](https://static.gnome.org/appdata/gnome-48/loupe/loupe-main.png)
+![Photos Screenshot](https://static.gnome.org/appdata/gnome-48/loupe/loupe-main.png)
 
 ## Supported Image Formats
 

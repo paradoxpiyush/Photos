@@ -1636,35 +1636,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f9f8bd3e56ce4dfc153cf470fffbfa98c7620958b312ca5c3a4b8d5181fd13c6"
 
 [[package]]
-name = "loupe"
-version = "51.0.0"
-dependencies = [
- "anyhow",
- "arc-swap",
- "ashpd",
- "async-channel",
- "async-lock",
- "cairo-rs",
- "chrono",
- "gettext-rs",
- "gettext-sys",
- "gio",
- "glycin",
- "gtk4",
- "gufo",
- "gvdb-macros",
- "indexmap",
- "libadwaita",
- "libc",
- "libgweather",
- "moxcms",
- "strum",
- "thiserror",
- "tracing",
- "tracing-subscriber",
-]
-
-[[package]]
 name = "malloc_buf"
 version = "0.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1878,6 +1849,35 @@ name = "paste"
 version = "1.0.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a"
+
+[[package]]
+name = "photos"
+version = "51.0.0"
+dependencies = [
+ "anyhow",
+ "arc-swap",
+ "ashpd",
+ "async-channel",
+ "async-lock",
+ "cairo-rs",
+ "chrono",
+ "gettext-rs",
+ "gettext-sys",
+ "gio",
+ "glycin",
+ "gtk4",
+ "gufo",
+ "gvdb-macros",
+ "indexmap",
+ "libadwaita",
+ "libc",
+ "libgweather",
+ "moxcms",
+ "strum",
+ "thiserror",
+ "tracing",
+ "tracing-subscriber",
+]
 
 [[package]]
 name = "pin-project-lite"

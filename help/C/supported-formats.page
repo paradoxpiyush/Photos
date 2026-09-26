@@ -10,7 +10,7 @@
   <link type="guide" xref="index#technical-information"/>
  </info>
  <title>Supported Image Formats</title>
- <p>Image Viewer uses <link href="https://gitlab.gnome.org/GNOME/glycin">glycin</link> for
+ <p>Photos uses <link href="https://gitlab.gnome.org/GNOME/glycin">glycin</link> for
  loading images. You can check <link href="https://gitlab.gnome.org/GNOME/glycin#supported-image-formats">glycin's README</link>
  for more details about the formats supported by the default loaders and the features
  provided by each format.</p>

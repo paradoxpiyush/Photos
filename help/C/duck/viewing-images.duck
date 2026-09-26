@@ -28,7 +28,7 @@ Touchpad and touchscreen users can also use a two-finger rotate gesture.
 
 == Fullscreen
 
-Image Viewer has a simple fullscreen mode. Users can toggle fullscreen mode by pressing the $gui(Toggle Fullscreen)
+Photos has a simple fullscreen mode. Users can toggle fullscreen mode by pressing the $gui(Toggle Fullscreen)
 ($media[type="image" src="figures/view-fullscreen-symbolic.svg"](view-fullscreen-symbolic) / $media[type="image" src="figures/view-restore-symbolic.svg"](view-restore-symbolic)) button.
 
 [note .tip]

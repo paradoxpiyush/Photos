@@ -15,7 +15,7 @@ media = [
   'figures' / 'help-about-symbolic.svg',
   'figures' / 'object-rotate-left-symbolic.svg',
   'figures' / 'object-rotate-right-symbolic.svg',
-  'figures' / 'org.gnome.Loupe.svg',
+  'figures' / 'io.github.paradoxpiyush.Photos.svg',
   'figures' / 'user-trash-symbolic.svg',
   'figures' / 'view-fullscreen-symbolic.svg',
   'figures' / 'view-restore-symbolic.svg',
